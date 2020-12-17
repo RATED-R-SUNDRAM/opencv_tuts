@@ -38,7 +38,7 @@ while(1):
     k=cv.waitKey(1)
     if k==27:
         break
-"""
+
 cap=cv.VideoCapture(0)
 while(1):
     ret,img=cap.read()
@@ -55,5 +55,5 @@ while(1):
     k=cv.waitKey(1)
     if k==27:
         break
-        """
+
 cv.destroyAllindows()
